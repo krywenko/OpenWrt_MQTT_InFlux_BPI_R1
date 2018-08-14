@@ -26,3 +26,4 @@ mosquitto_pub -t 'incoming/OpenWrt/mqtt-Pressure/pressure-heatpump' -m 'N:21.5'
 
 
  
+https://github.com/krywenko/OpenWrt_MQTT_InFlux_BPI_R1/blob/master/46eef45ff8813ecf7fea535af76d6b9be18aaf41.png
