@@ -28,4 +28,4 @@ mosquitto_pub -t 'incoming/OpenWrt/mqtt-Pressure/pressure-heatpump' -m 'N:21.5'
  
 ![RRD](https://github.com/krywenko/OpenWrt_MQTT_InFlux_BPI_R1/blob/master/46eef45ff8813ecf7fea535af76d6b9be18aaf41.png)
 
-if you wish to install on a different openwrt verision follow [this](https://forum.openwrt.org/t/here-a-partial-update-to-luci-statistis-for-mqtt/12364)  and use my openwrt -csv to influx software  you nee to install perl and bash on your openwrt device 
+if you wish to install on a different openwrt verision follow [this](https://forum.openwrt.org/t/here-a-partial-update-to-luci-statistis-for-mqtt/12364)  and use my openwrt -csv to influx software  you need to install perl and bash on your openwrt device 
