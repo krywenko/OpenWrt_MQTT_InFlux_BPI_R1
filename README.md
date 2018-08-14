@@ -9,3 +9,15 @@ For MQTT the data is written to the CSV as soon as it is recieved. independent o
  or  remove data being sent to influxdb  please modify /runfiles/cp-csv
  to enable influx sends in local startup (system>startup)  add the line /runfiles/./startup.sh  -- this copies the
  files over to /tmp and executes them which will extend the life of your SD card
+
+MQTT catagories  are Energy, Temp, Humidity, Flow and Pressure
+
+format for sending topic
+mosquitto_pub -t 'incoming/OpenWrt/mqtt-Energy/power-grid' -m 'N:21.5'
+mosquitto_pub -t 'incoming/OpenWrt/mqtt-Temp/temperature-greenhouse' -m 'N:21.5'
+mosquitto_pub -t 'incoming/OpenWrt/mqtt-Humidity/humidity-greenhouse' -m 'N:21.5'
+mosquitto_pub -t 'incoming/OpenWrt/mqtt-Flow/flow-heatpump' -m 'N:21.5'
+mosquitto_pub -t 'incoming/OpenWrt/mqtt-Pressure/pressure-heatpump' -m 'N:21.5'
+
+
+ 
